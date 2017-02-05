@@ -106,9 +106,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v2.7 - Forked back from JBoss Demo Central for updating to JBoss BPM Suite 6.4.0, JBoss EAP 7.0.0 with generic loan demo installed locally, containerized or on any OpenShift installation.
-
-- v2.6 - JBoss BPM Suite 6.3.0, JBoss EAP 6.4.7 with generic loan demo installed and RH CDK on OSE Cloud install option. 
+- v2.6 - Forked back from JBoss Demo Central for updating to JBoss BPM Suite 6.4.0, JBoss EAP 7.0.0 with generic loan demo installed locally, containerized or on any OpenShift installation.
 
 - v2.5 - JBoss BPM Suite 6.3.0 on JBoss EAP 6.4.7 with generic loan demo installed.
 
@@ -160,6 +158,4 @@ See the tagged releases for the following versions of the product:
 ![Loan Process](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/blob/master/docs/demo-images/generic-loan-process.png?raw=true)
 
 ![Process & Task Dashboard](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/blob/master/docs/demo-images/mock-bpm-data.png?raw=true)
-
-
 
