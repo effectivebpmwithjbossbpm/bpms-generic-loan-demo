@@ -2,7 +2,7 @@
 DEMO="Generic Loan Demo"
 AUTHORS="Dan-Grigore Pupaza, Andrew Block,"
 AUTHORS2="Alexandre Porcelli, Eric D. Schabell, Duncan Doyle"
-PROJECT="git@github.com:jbossdemocentral/bpms-generic-loan-demo.git"
+PROJECT="git@github.com:effectivebpmwithjbossbpm/bpms-generic-loan-demo.git"
 PRODUCT="JBoss BPM Suite"
 TARGET_DIR=./target
 JBOSS_HOME=./target/jboss-eap-7.0

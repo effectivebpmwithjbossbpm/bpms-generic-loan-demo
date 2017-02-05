@@ -8,7 +8,7 @@ There are three options available to you for using this demo; local, on OpenShif
 
 Option 1 - Install on your machine
 ----------------------------------
-1. [Download and unzip.](https://github.com/eschabell/bpms-generic-loan-demo/archive/master.zip)
+1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/archive/master.zip)
 
 2. Add products to installs directory.
 
@@ -34,7 +34,7 @@ Option 3 - Generate containerized installation
 ----------------------------------------------
 The following steps can be used to configure and run the demo in a container
 
-1. [Download and unzip.](https://github.com/eschabell/bpms-generic-loan-demo/archive/master.zip)
+1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/archive/master.zip)
 
 2. Add product installer to installs directory.
 
@@ -43,13 +43,13 @@ The following steps can be used to configure and run the demo in a container
 4. Build demo image.
 
 	```
-	docker build -t eschabell/bpms-generic-loan-demo .
+	docker build -t effectivebpmwithjbossbpm/bpms-generic-loan-demo .
 	```
 
 5. Start demo container.
 
 	```
-	docker run -it -p 8080:8080 -p 9990:9990 eschabell/bpms-generic-loan-demo
+	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/bpms-generic-loan-demo
 	```
 
 Login to http://DOCKER_HOST:8080/business-central  
@@ -157,9 +157,9 @@ See the tagged releases for the following versions of the product:
 - v0.1 - JBoss BPM Suite 6.0.0.Beta1, JBoss EAP 6.1.1, and generic loan demo installed.
 
 
-![Loan Process](https://github.com/eschabell/bpms-generic-loan-demo/blob/master/docs/demo-images/generic-loan-process.png?raw=true)
+![Loan Process](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/blob/master/docs/demo-images/generic-loan-process.png?raw=true)
 
-![Process & Task Dashboard](https://github.com/eschabell/bpms-generic-loan-demo/blob/master/docs/demo-images/mock-bpm-data.png?raw=true)
+![Process & Task Dashboard](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/blob/master/docs/demo-images/mock-bpm-data.png?raw=true)
 
 
 
