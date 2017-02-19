@@ -10,7 +10,7 @@ Option 1 - Install on your machine
 ----------------------------------
 1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/archive/master.zip)
 
-2. Add products to installs directory.
+2. Download JBoss EAP & JBoss BPM Suite, add to installs directory (see installs/README).
 
 3. Run 'init.sh' or 'init.bat' file. When running init.bat, be sure to run the script as an Administrator
 
@@ -36,7 +36,7 @@ The following steps can be used to configure and run the demo in a container
 
 1. [Download and unzip.](https://github.com/effectivebpmwithjbossbpm/bpms-generic-loan-demo/archive/master.zip)
 
-2. Add product installer to installs directory.
+2. Download JBoss EAP & JBoss BPM Suite, add to installs directory (see installs/README).
 
 3. Copy contents of support/docker directory to the project root.
 
