@@ -48,7 +48,7 @@ if [ -r $SRC_DIR/$EAP ] || [ -L $SRC_DIR/$EAP ]; then
 	echo Product EAP sources are present...
 	echo
 else
-	echo Need to download $EAP package from the Customer Portal 
+	echo Need to download $EAP package from https://developers.redhat.com/products/eap/download
 	echo and place it in the $SRC_DIR directory to proceed...
 	echo
 	exit
@@ -58,7 +58,7 @@ if [ -r $SRC_DIR/$BPMS ] || [ -L $SRC_DIR/$BPMS ]; then
 		echo Product BPM Suite sources are present...
 		echo
 else
-		echo Need to download $BPMS package from the Customer Portal 
+		echo Need to download $BPMS package from https://developers.redhat.com/products/bpmsuite/download
 		echo and place it in the $SRC_DIR directory to proceed...
 		echo
 		exit
