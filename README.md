@@ -49,14 +49,30 @@ The following steps can be used to configure and run the demo in a container
 5. Start demo container.
 
 	```
-	docker run -it -p 8080:8080 -p 9990:9990 effectivebpmwithjbossbpm/bpms-generic-loan-demo
+	docker run -it -p 8080:8080 -p 9990:9990 -p 8001:8001 effectivebpmwithjbossbpm/bpms-generic-loan-demo
 	```
 
-Login to http://DOCKER_HOST:8080/business-central  
+Login to http://localhost:8080/business-central (u:erics / p:bpmsuite1!) 
 
-    ```
-    - login for admin role and Loan Officer role (u:erics / p:bpmsuite1!)
-    ```
+Read-write access to container JBoss BPM Suite git repo is available through ssh:
+
+   ```
+   $ git clone ssh://erics@localhost:8001/Loans
+
+   Cloning into 'Loans'...
+   The authenticity of host '[localhost]:8001 ([::1]:8001)' can't be established.
+   DSA key fingerprint is SHA256:ok9ukS2j16
+   Are you sure you want to continue connecting (yes/no)? yes
+
+   Warning: Permanently added '[localhost]:8001' (DSA) to the list of known hosts.
+   Password authentication
+   Password: bpmsuite1!
+
+   Receiving objects: 100% (401/401), 56.68 KiB | 0 bytes/s, done.
+   Resolving deltas: 100% (106/106), done.
+   remote: Total 401 (delta 0), reused 401 (delta 0)
+   ```
+
 
 Note
 ----
